@@ -3,9 +3,10 @@
 
 ## Local Setup:
 * git clone https://github.com/vikash98k/stackoverflow-search-api.git
-* active virtual environment
-* go to project directory cd search_api
-* run pip install -r requirements.txt
+* pip install virtualenv
+* active virtual environment `windows: venv\Scripts\activate`,`Linux: source venv/bin/activate`
+* go to project directory `cd search_api`
+* run pip install -r requirements.txt `requirements regarding to this project`
 * python manage.py makemigrations
 * python manage.py migrate
 * python manage.py runserver
