@@ -1,0 +1,16 @@
+<!--<form method="GET" action="https://api.stackexchange.com/2.3/search/advanced">
+    {% csrf_token %}
+    	{{form.as_p}}
+    <div class="form-actions">
+      <button type="submit" class="btn btn-success">Send</button>
+    </div>
+</form>
+-->
+<form method="POST">
+  {% csrf_token %}
+    {{form.as_p}}
+    <div class="form-actions">
+      <button type="submit" class="btn btn-success">Send</button>
+    </div>
+</form>
+
