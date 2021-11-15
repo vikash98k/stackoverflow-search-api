@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-rozm8@#r53fv_@^d-ww!j($5n+(jh#=s0io=+i^%-h7s@di7tw
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["*",'']
+ALLOWED_HOSTS = ["*",'stackoverflow-search-api']
 
 
 # Application definition
@@ -126,4 +126,4 @@ STATIC_URL = '/static/'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-django_heroku.settings(locals())
+django_heroku.settings(locals())    
