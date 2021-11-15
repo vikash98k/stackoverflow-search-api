@@ -9,4 +9,4 @@
 * run pip install -r requirements.txt `requirements regarding to this project`
 * python manage.py makemigrations
 * python manage.py migrate
-* python manage.py runserver
+* python manage.py runserver `run at local server`
